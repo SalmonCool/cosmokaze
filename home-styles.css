@@ -17,7 +17,7 @@ body {
 }
 
 #astronaut-panel {
-    background-image: url('../image_assets/AstronautBackground.png');
+    background-image: url('image_assets/AstronautBackground.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
@@ -83,7 +83,7 @@ body {
     width: 400px;
     height: 400px;
     padding: 40px;
-    background-image: url('../image_assets/SleepyAndre.png');
+    background-image: url('image_assets/SleepyAndre.png');
     background-size: cover;
 }
 
