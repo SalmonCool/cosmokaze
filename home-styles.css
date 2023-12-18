@@ -1,0 +1,120 @@
+
+body {
+    background-color: #2e2e2e;
+    margin: auto;
+    
+}
+
+.panel {
+    background-color: #2e2e2e;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    font-family: Permanent Marker;
+    margin: auto;
+}
+
+#astronaut-panel {
+    background-image: url('../image_assets/AstronautBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+#blur-overlay{
+    backdrop-filter: blur(3px) brightness(0.5);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blur-overlay p {
+    font-size: 150px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+#latest-text-container {
+    width: 80%;
+    text-align: left;
+    margin: 50px 0px 10px;
+    font-size: 50px;
+    font-family: Russo One;
+}
+
+#latest-panel-content {
+    background-color: #091825;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#latest-video {
+    max-width: 80%;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+
+#about-panel-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+#about-panel-content hr{
+    width: 130vh;
+}
+
+#about-title {
+    font-size: 70px;
+    font-family: Russo One;
+    margin: 50px 0px 10px;
+    width: 130vh;
+}
+
+#about-photo {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    background-image: url('../image_assets/SleepyAndre.png');
+    background-size: cover;
+}
+
+#about-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 130vh;
+    height: 50vh;
+    gap: 20px;
+    margin: 30px 0px 0px 0px;
+    animation: ease-in-out 1s;
+}
+
+#about-text-container {
+    font-size: 20px;
+    font-family: Russo One;
+    text-align: left;
+    margin: 0px 0px 0px 40px;
+}
+
+#about-text-container h2 {
+    
+    margin: 0px 0px 20px 0px;
+    font-family: Permanent Marker;
+    font-size: 50px;
+}
+
+#about-text-container p {
+    margin: 0px;
+    font-size: 25px;
+}
+
+
+

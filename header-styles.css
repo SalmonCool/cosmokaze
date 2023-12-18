@@ -1,0 +1,39 @@
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    font-family: Permanent Marker;
+}
+
+#logo-link {
+    display: flex;
+    align-items: center;
+}
+
+#header-logo {
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin-left: 10px;
+}
+
+#youtube-symbol {
+    padding: 20px;
+    color: white;
+}
+
+#twitch-symbol {
+    padding: 20px;
+    color: white;
+}
+
+#header-nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
